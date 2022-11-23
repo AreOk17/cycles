@@ -1,11 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int years = 200;
-        int vesokosniy = 79;
-       for (int i = 0; i <= years; i++) {
-           if (i % vesokosniy == 0) {
-           System.out.println(i+ "+79" );
-}
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("2 x "+i+" = "+2*i);
+
+        }
     }
-}
 }
